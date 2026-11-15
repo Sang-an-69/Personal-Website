@@ -1,0 +1,40 @@
+body {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(220, 220, 220);
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.welcome {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.top_navbar {
+    overflow: hidden;
+    background-color: cyan;
+    padding: 5px;
+}
+
+.top_navbar a {
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    padding: 3px 3px;
+    margin-right: 5px;
+}
+
+.top_navbar a:hover{
+    background-color: grey;
+    color: white;
+}
+
+
+.top_navbar a.active {
+    background-color: red;
+}
